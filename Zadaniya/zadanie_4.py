@@ -9,7 +9,7 @@ import time
 link = 'https://suninjuly.github.io/selects1.html'
 
 try:
-    service = Service('/Users/maksimkuznetsov/PycharmProjects/kyrspitona/SELENIUM/drivers/chromedriver')
+    service = Service('/Users/maksimkuznetsov/PycharmProjects/test_selenium/drivers/chromedriver')
     driver = webdriver.Chrome(service=service)
     driver.get(link)
     driver.maximize_window()

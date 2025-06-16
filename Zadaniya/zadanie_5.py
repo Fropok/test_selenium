@@ -13,7 +13,7 @@ def calc(x):
 
 
 try:
-    service = Service('/Users/maksimkuznetsov/PycharmProjects/kyrspitona/SELENIUM/drivers/chromedriver')
+    service = Service('/Users/maksimkuznetsov/PycharmProjects/test_selenium/drivers/chromedriver')
     driver = webdriver.Chrome(service=service)
     driver.get(link)
     driver.maximize_window()
