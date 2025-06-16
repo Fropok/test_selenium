@@ -13,11 +13,10 @@ def calc(x):
     return str(math.log(abs(12 * math.sin(int(x)))))
 
 try:
-    service = Service('/Users/maksimkuznetsov/PycharmProjects/kyrspitona/SELENIUM/drivers/chromedriver')
+    service = Service('/Users/maksimkuznetsov/PycharmProjects/test_selenium/drivers/chromedriver')
     driver = webdriver.Chrome(service=service)
     driver.get(link)
     driver.maximize_window()
-
 
     WebDriverWait(driver, 12).until(EC.text_to_be_present_in_element((By.ID, 'price'), '$100'))
     WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'book'))).click()
