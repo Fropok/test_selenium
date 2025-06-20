@@ -11,4 +11,5 @@ def test_add_to_cart_button(browser):
     assert button_add_cart.is_displayed(), 'ОШИБКА! Кнопка добавления в корзину не найдена'
 
 
-# pytest --language=es Zadanie_3_6/test_items.py - команда для запуска теста
+# Команда для запуска теста: pytest --language=es Zadanie_3_6/test_items.py
+# Не хочется плодить репозитории, буду признателен за понимание!

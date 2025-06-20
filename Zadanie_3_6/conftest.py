@@ -18,4 +18,5 @@ def browser(request):
     browser.quit()
 
 
-# pytest --language=es Zadanie_3_6/test_items.py - команда для запуска теста
+# Команда для запуска теста: pytest --language=es Zadanie_3_6/test_items.py
+# Не хочется плодить репозитории, буду признателен за понимание!
